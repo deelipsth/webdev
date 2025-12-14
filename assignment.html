@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .box {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
+    </style>
 </head>
 <body>
-    <button class="transition-button">Hover me</button>
-    <div class="animation-box"></div>
-    <ul class="pseudo-list">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
-</ul><img src="/picture.jpg" alt="Sample Image" class="filter-image">
-<blockquote class="quote">
-  This is a sample quote.
-</blockquote>
-
-
-
-
-
-
+    <div class="flex-container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </div>
 </body>
 </html>
